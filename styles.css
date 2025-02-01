@@ -139,6 +139,14 @@ body {
     margin-top: 12px;
     border: 0;
     width: 113px;
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+
+.section-playlist__content .section-playlist__button:hover {
+    background-color: red;
+    color: #000;
+    font-size: 15px;
 }
 
 .sidebar .cookies {
