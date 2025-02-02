@@ -177,3 +177,17 @@ body {
     padding: 8px;
     border-radius: 20px;
 }
+
+.footer {
+    background: rgb(200, 0, 0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(84,16,16,1) 75%);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .footer__content {
+    display: flex;
+    padding: 20px 40px;
+    width: 100%;
+}
