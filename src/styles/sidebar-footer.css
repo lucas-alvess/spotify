@@ -140,12 +140,6 @@ body {
     cursor: pointer;
 }
 
-.section-playlist__content .section-playlist__button:hover {
-    background-color: red;
-    color: #000;
-    font-size: 15px;
-}
-
 .sidebar .cookies {
     margin: 25px 20px;
 }
@@ -156,10 +150,6 @@ body {
     font-size: 10px;
     text-decoration: none;
     text-transform: none;
-}
-
-.sidebar .cookies a:hover {
-    text-decoration: underline;
 }
 
 .sidebar .languages__button {
@@ -205,7 +195,7 @@ body {
     font-weight: 500;
 }
 
-button {
+.footer-button button {
     background-color: #FFF;
     color:#000;
     font-size: 16px;
@@ -216,10 +206,3 @@ button {
     cursor: pointer;
     flex-shrink: 0;
 }
-
-button:hover {
-    background-color: #000;
-    color: red;
-    transition-duration: 0.6s;
-}
-
